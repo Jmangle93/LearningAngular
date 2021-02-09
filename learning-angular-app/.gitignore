@@ -43,7 +43,8 @@ testem.log
 environment.ts
 .env
 scripts/*
-/src/environments/*
+src/environments/*
+src/environments
 
 # System Files
 .DS_Store
