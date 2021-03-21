@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../environments/environment';
+// import { environment } from '../environments/environment';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -14,7 +14,7 @@ export class ApixuService {
   // Its documentation can help fix the discrepancies between the dated tutorial and current weatherstack response format
   getWeather(location: string): Observable<any> {
     return this.http.get(
-      'http://api.weatherstack.com/current?access_key=' + environment.WEATHER_API_KEY + 'b&query=' + location
+      'http://api.weatherstack.com/current?access_key=' + 'e69802562ea9e3ad3742fa8a2a8b567b' + 'b&query=' + location
     );
   }
 }
